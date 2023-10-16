@@ -1,0 +1,215 @@
+@font-face{
+    font-family: 'Bitter';
+    src: url('./../fonts/Bitter/static/Bitter-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face{
+    font-family: 'Bitter';
+    src: url('./../fonts/Bitter/static/Bitter-Light.ttf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Bitter';
+    src: url('./../fonts/Bitter/static/Bitter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Bulter';
+    src: url('./../fonts/Butler/Butler_Regular.otf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Inter';
+    src: url('./../fonts/Inter/static/Inter-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('./../fonts/Playfair_Display/static/PlayfairDisplay-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Playfair Display';
+    src: url('./../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf');
+    font-weight: 500;
+}
+
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('./../fonts/Roboto/Roboto-Medium.ttf');
+    font-weight: 500;
+}
+
+@font-face{
+    font-family: 'Roboto';
+    src: url('./../fonts/Roboto/Roboto-Bold.ttf');
+    font-weight: 700;
+}
+
+.navigation-link{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main-name{
+    color: #000;
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%;
+}
+
+.main-suname{
+    color: #000;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.biography-title{
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.biography-name{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.biography-job{
+    color: #0D0D0D;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.biography-citata{
+    color: #0D0D0D;
+    font-family: Bitter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.designers-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.designers-name{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.designers-job{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimonials-about{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.testimonials-link{
+    color: #000;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimonials-title{
+    color: #000;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.testimonials-citata{
+    color: #000;
+    text-align: center;
+    font-family: Bitter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.strongPoints-title{
+    color: #000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.strongPoints-menu{
+color: #000;
+font-family: Playfair Display;
+font-size: 86px;
+font-style: normal;
+font-weight: 500;
+line-height: 100%; /* 86px */
+}
+
+.strongPoints-link{
+color: #000;
+font-family: Bitter;
+font-size: 34px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

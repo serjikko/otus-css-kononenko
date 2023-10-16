@@ -4,93 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@100;700&family=Fira+Sans:ital,wght@1,300&family=Playfair+Display:wght@500&family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li>Biography</li>
-                <li>Designers</li>
-                <li>Testimonials</li>
-                <li>Strong points</li>
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li class="navigation-itim">
+                    <a class="navigation-link" href="#Biography">Biography</a>
+                </li>
+                <li>
+                    <a class="navigation-link" href="#Designers">Designers</a></li>
+                <li>
+                    <a class="navigation-link" href="#Testimonials">Testimonials</a></li>
+                <li><a class="navigation-link" href="#StrongPoints">Strong points</a></li>
             </ul>
         </nav>
+    </header>
+    <main>
         <div>
             <div>
-                <h1>Mod Studio</h1>
-                <h2>Modern Web Studio</h2>
+                <h1 class="main-name">Mod Studio</h1>
+                <h2 class="main-suname">Modern Web Studio</h2>
             </div>
         </div>
-    </header>
+    
     <!-- Биография -->
-    <section>
+    <section id="Biography">
         <div>
-                <h2>Biography</h2>
+                <h2 class="biography-title">Biography</h2>
                 <img src="img/front_bio.jpg" alt="Art Director Katya Mills">
         </div> 
         <div>
-                <h2>Katya Mills</h2>
-                <h3>Art Director</h3>
-                <ul>
+                <h2 class="biography-name">Katya Mills</h2>
+                <div>
+                    <p class="biography-job">Art Director</p>
+                </div>
+                <ul class="biography-job">
                     <li>Scenography</li>
                     <li>Styling</li>
                     <li>Creative Photography</li>
                     <li>Design</li> 
                 </ul>
-                <p> “The more I deal with the work as something that is my own, as something that is personal, the more successful it is.”</p>
+                <blockquote class="biography-citata">“The more I deal with the work as something that is my own, as something that is personal, the more successful it is.”</blockquote>
         </div>
     </section>
     <!-- Дизайнеры -->
-    <section>
-        <h2>Designers</h2>
+    <section id="Designers">
+        <h2 class="designers-title">Designers</h2>
         <div>
                 <img src="img/designers_Jess_Wonder.jpg" alt="Designer Jess Wonder">
-                <h3>Jess Wonder<br>
-                From/ Be more flower<br>
-                Skills/ Design Strategy / Marketing</h3>
+                <p class="designers-name">Jess Wonder</p>
+                <p class="designers-from">From/ Be more flower</p>
+                <p class="designers-job">Skills/ Design Strategy / Marketing</p>
         </div>
         <div>
                 <img src="img/designers_Kameron_Clein.jpg" alt="Designers Kameron Clein">
-                <h3>Kameron Clein<br>
-                From/ Be more flower<br>
-                Skills/ Design Strategy / Marketing</h3>
+                <p class="designers-name">Kameron Clein</p>
+                <p class="designers-from">From/ Be more flower</p>
+                <p class="designers-job">Skills/ Design Strategy / Marketing</p>
         </div>
         <div>          
                 <img src="img/designers_Louisse_Red.jpg" alt="Designer Louisse Red">
-                <h3>LOUISSE RED<br>
-                From/ Be more flower<br>
-                Skills/ Design Strategy / Marketing</h3>
+                <p class="designers-name">Louisse Red</p>
+                <p class="designers-from">From/ Be more flower</p>
+                <p class="designers-job">Skills/ Design Strategy / Marketing</p>
         </div>
-        </section>
+    </section>
         <!-- Рекомендации -->
-        <section>
+    <section id="Testimonials">
                 <div>
-                    <UL>
-                        <LI>Website<br>
-                            www.whitepapers.com
-                            </LI>
-                        <LI>Creativity<br>
-                            www.whitepapers.com
-                            </LI>
-                        <LI>Creativity<br>
-                            www.whitepapers.com</LI>
-                    </UL>
+                    <ul class="testimonials-about">
+                        <li>Website<br>
+                            <a class="testimonials-link" href="www.whitepapers.com">www.whitepapers.com</a>
+                            </li>
+                        <li>Creativity<br>
+                            <a class="testimonials-link" href="www.whitepapers.com">www.whitepapers.com</a>
+                            </li>
+                        <li>Creativity<br>
+                            <a class="testimonials-link" href="www.whitepapers.com">www.whitepapers.com</a>
+                            </li>
+                    </ul>
                     <img src="img/testimonials_atmosphere.jpg" alt="Atmosphere cafe Design">
-                    <h2>Testimonials</h2>
+                    <h2 class="testimonials-title">Testimonials</h2>
             </div>
-                    <blockquote>I just really want to do good work and work with some great people, people who challenge me.</blockquote>
+                    <blockquote class="testimonials-citata">I just really want to do good work and work with some great people, people who challenge me.</blockquote>
                     <img src="img/testimonials_challenge_me.jpg" alt="Design sport challenge me">
         </section>
-        <section>
+    <section id="StrongPoints">
         <!-- Наши работы -->
-            <h2>Strong points</h2>
+            <h2 class="strongPoints-title">Strong points</h2>
             <div>
                 <img src="img/design_kitchen.jpg" alt="Design kitchen">
                 <img src="img/design_home.jpg" alt="Design for home">
             </div>
             <div>
-                <h3>Strengths</h3>
-                <ul>
+                <h3 class="strongPoints-title">Strengths</h3>
+                <ul class="strongPoints-link">
                     <li>Interiors</li>
                     <li>Outdoors</li>
                     <li>Portraits</li>
@@ -107,17 +120,7 @@
                 <img src="img/testimonials_atmosphere.jpg" alt="Atmosphere cafe Design">
             </div>
         </section>
-        <footer>
-                <hr>
-                <nav>
-                    <ul>
-                        <li>B</li>
-                        <li>D</li>
-                        <li>T</li>
-                        <li>S</li>
-                    </ul>
-                </nav>
-        </footer>
-    
+
+    </main>
 </body>
 </html>
