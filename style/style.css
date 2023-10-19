@@ -16,11 +16,6 @@
     font-weight: 400;
 }
 
-@font-face{
-    font-family: 'Bulter';
-    src: url('./../fonts/Butler/Butler_Regular.otf');
-    font-weight: 400;
-}
 
 @font-face{
     font-family: 'Inter';
@@ -53,17 +48,94 @@
     font-weight: 700;
 }
 
-.navigation-link{
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+  
+   body {
+    max-width: 1440px;
+    height: 4395px;
+    margin: 0 auto;
+    
+  }
+
+   header {
+    display: flex;
+    max-width: 1397px;
+    height: 135px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+  }
+   
+ .navigation-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 55px;
+    flex: 1 0 0;
+  } 
+  
+   .navigation-itim {
+    
+    position: relative;
+    
+
+  } 
+  
+
+  
+   .navigation-link {
     color: #000;
     text-align: center;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 500;
-    line-height: normal;
-}
+    text-decoration: none; 
+  } 
+  
+   .navigation-link:hover {
+    text-decoration: underline;
 
-.main-name{
+  } 
+
+
+
+ .main-top {
+    height: 630px;
+    background: url("./../img/mod_studio.jpg") no-repeat center/cover; 
+  }
+  
+ .main-content {
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  
+ .main-company {
+    padding-top: 1px;
+    background: #FFF;
+    width: 690px;
+    height: 150px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    padding: 110px 20px; 
+  }
+  
+  .main-name {
     color: #000;
     text-align: center;
     font-family: Playfair Display;
@@ -71,9 +143,16 @@
     font-style: normal;
     font-weight: 500;
     line-height: 120%;
-}
+  }
+  
+  .main-suname {
+    margin-top: 14px;
+    font-size: 20px; 
+  }
 
-.main-suname{
+
+
+    .main-suname{
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -81,9 +160,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
+    }
 
-.biography-title{
+    .biography-title{
     color: #000;
     text-align: right;
     font-family: Roboto;
@@ -91,45 +170,45 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+    }
 
-.biography-name{
+    .biography-name{
     color: #000;
     font-family: Playfair Display;
     font-size: 86px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
+    }
 
-.biography-job{
+    .biography-job{
     color: #0D0D0D;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-}
+    }
 
-.biography-citata{
+    .biography-quote{
     color: #0D0D0D;
     font-family: Bitter;
     font-size: 26px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+    }
 
-.designers-title{
+    .designers-title{
     color: #000;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+    }
 
-.designers-name{
+    .designers-name{
     color: #000;
     font-family: Roboto;
     font-size: 16px;
@@ -137,18 +216,18 @@
     font-weight: 700;
     line-height: normal;
     text-transform: uppercase;
-}
+    }
 
-.designers-job{
+    .designers-job{
     color: #000;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+    }
 
-.testimonials-about{
+    .testimonials-about{
     color: #000;
     font-family: Roboto;
     font-size: 16px;
@@ -156,18 +235,18 @@
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
-}
+    }
 
-.testimonials-link{
+    .testimonials-link{
     color: #000;
     font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+    }
 
-.testimonials-title{
+    .testimonials-title{
     color: #000;
     text-align: right;
     font-family: Roboto;
@@ -175,9 +254,9 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-}
+    }
 
-.testimonials-citata{
+    .testimonials-quote{
     color: #000;
     text-align: center;
     font-family: Bitter;
@@ -185,31 +264,52 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-}
+    }
 
-.strongPoints-title{
+    .strongPoints-title{
     color: #000;
     font-family: Roboto;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    }
+
+    .strongPoints-menu{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 86px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 86px */
+    }
+
+    .strongPoints-link{
+    color: #000;
+    font-family: Bitter;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+
+
+/* figma
+ .main-top{
+   background: url(/img/mod_studio.jpg), lightgray 0px -464.632px / 100% 242.111% no-repeat;
+    width: 1440px;
+    height: 630px;
+    flex-shrink: 0;
 }
 
-.strongPoints-menu{
-color: #000;
-font-family: Playfair Display;
-font-size: 86px;
-font-style: normal;
-font-weight: 500;
-line-height: 100%; /* 86px */
+.main-company {
+    display: flex;
+    width: 690px;
+    padding: 110px 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    background: #FFF;
 }
-
-.strongPoints-link{
-color: #000;
-font-family: Bitter;
-font-size: 34px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-}
+   */
