@@ -60,15 +60,14 @@
 
   
    body {
-    max-width: 1440px;
-    height: 4395px;
+    
     margin: 0 auto;
     
   }
 
    header {
     display: flex;
-    max-width: 1397px;
+
     height: 135px;
     justify-content: flex-end;
     align-items: center;
@@ -84,12 +83,7 @@
     flex: 1 0 0;
   } 
   
-   .navigation-itim {
-    
-    position: relative;
-    
-
-  } 
+ 
   
 
   
@@ -113,26 +107,24 @@
  .main-top {
     height: 630px;
     background: url("./../img/mod_studio.jpg") no-repeat center/cover; 
+    position: relative;
+    display: flex;
   }
   
- .main-content {
-     display: flex;
-    justify-content: center;
-    align-items: center; 
-  }
+
   
  .main-company {
     padding-top: 1px;
     background: #FFF;
     width: 690px;
     height: 150px;
-    position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     margin: auto;
     padding: 110px 20px; 
+
   }
   
   .main-name {
