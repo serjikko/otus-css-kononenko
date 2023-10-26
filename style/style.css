@@ -57,17 +57,16 @@
 
 
 
-
+/* Селектор тега  */
   
-   body {
+   /* body {
     
     margin: 0 auto;
     
-  }
+  } */
 
-   header {
+  .navigation {
     display: flex;
-
     height: 135px;
     justify-content: flex-end;
     align-items: center;
@@ -82,8 +81,6 @@
     gap: 55px;
     flex: 1 0 0;
   } 
-  
- 
   
 
   
@@ -137,14 +134,10 @@
     line-height: 120%;
   }
   
-  .main-suname {
-    margin-top: 14px;
-    font-size: 20px; 
-  }
-
-
 
     .main-suname{
+    margin-top: 14px;
+    font-size: 20px; 
     color: #000;
     text-align: center;
     font-family: Roboto;
