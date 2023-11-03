@@ -98,6 +98,8 @@
     background: url("./../img/mod_studio.jpg") no-repeat center/cover; 
     position: relative;
     display: flex;
+    width: 100%;
+    object-fit: contain;
   }
   
 
@@ -143,7 +145,7 @@
       margin-top: 150px;
       height: 840px;
       display: flex;
-      padding: 0 min(10%, 137px);
+      justify-content: center;
       position: relative;
 
     }
@@ -174,10 +176,10 @@
     align-self: flex-start;
     writing-mode: vertical-lr;
     transform-origin: center center;
-    transform: rotate(-180deg);
+    /* transform: rotate(-180deg);
     margin: 0;
     width: 9.5%;
-    display: flex;
+    display: flex; */
     flex-direction: column;
     align-items: center;
     justify-items: flex-start;
@@ -235,7 +237,7 @@
     .biography-skillslist {
       font-size: 18px;
       font-weight: 500;
-      padding: 0 0 0 18px;
+      /* padding: 0 0 0 18px; */
       margin-top: 0;
       list-style-type: none;
       color: #0D0D0D;
@@ -244,14 +246,21 @@
       font-style: normal;
       font-weight: 500;
       line-height: normal;
+      
     }
 
+    .biography-job-skill{
+      padding: 36px 0px;
+    }
     .biography-job,
-.biography-skillslist {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 1.1;
-}
+    .biography-skillslist {
+      color: #0D0D0D;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
 
  
 
