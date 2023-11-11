@@ -57,17 +57,8 @@
 
 
 
-
-  
-   body {
-    
-    margin: 0 auto;
-    
-  }
-
-   header {
+  .navigation {
     display: flex;
-
     height: 135px;
     justify-content: flex-end;
     align-items: center;
@@ -82,8 +73,6 @@
     gap: 55px;
     flex: 1 0 0;
   } 
-  
- 
   
 
   
@@ -109,6 +98,7 @@
     background: url("./../img/mod_studio.jpg") no-repeat center/cover; 
     position: relative;
     display: flex;
+   
   }
   
 
@@ -137,14 +127,10 @@
     line-height: 120%;
   }
   
-  .main-suname {
-    margin-top: 14px;
-    font-size: 20px; 
-  }
-
-
 
     .main-suname{
+    margin-top: 14px;
+    font-size: 20px; 
     color: #000;
     text-align: center;
     font-family: Roboto;
@@ -154,15 +140,74 @@
     line-height: normal;
     }
 
+    .biography-main{
+      margin-top: 150px;
+      height: 840px;
+      display: flex;
+      justify-content: center;
+      position: relative;
+
+    }
+
+    
+    .biography_image {
+      order: -1;
+      max-width: 50%;
+      min-width: 250px;
+      flex-grow: 0;
+      display: flex;
+      height: 100%;
+      overflow: hidden;
+      width: 571px;
+      height: 840px; 
+      
+    }
+
+    .bio_img{
+      width: 100%;
+    object-fit: contain;
+    }
+
+
     .biography-title{
     color: #000;
     text-align: right;
     font-family: Roboto;
-    font-size: 24px;
+    /* font-size: 24px; */
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    align-self: flex-start;
+    writing-mode: vertical-lr;
+    transform-origin: center center;
+    /* transform: rotate(-180deg);
+    margin: 0;
+    width: 9.5%;
+    display: flex; */
+    flex-direction: column;
+    align-items: center;
+    justify-items: flex-start;
+    margin-left: clamp(10px, 4%, 29px);
+    transform: rotate(-180deg);
     }
+
+
+    .biography-skills{
+      display: inline-block;
+      padding: 0;
+      margin-top: 0;
+      list-style-type: none;
+    }
+
+
+    .biography-person {
+      max-width: 40%;
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+    }
+  
+
 
     .biography-name{
     color: #000;
@@ -180,6 +225,9 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
     }
 
     .biography-quote{
@@ -189,7 +237,38 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-top: 18px;
     }
+
+    .biography-skillslist {
+      font-size: 18px;
+      font-weight: 500;
+      /* padding: 0 0 0 18px; */
+      margin-top: 0;
+      list-style-type: none;
+      color: #0D0D0D;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      
+    }
+
+    .biography-job-skill{
+      padding: 36px 0px;
+    }
+    .biography-job,
+    .biography-skillslist {
+      color: #0D0D0D;
+      font-family: Roboto;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+    }
+
+ 
 
     .designers-title{
     color: #000;
@@ -258,6 +337,147 @@
     line-height: normal;
     }
 
+/* !!! */
+
+    .testimonials-container {
+     max-width: 1440px;
+     margin: 0 auto;
+    }
+
+    .testimonials-quote{
+      font-size: 32px;
+      line-height: 1.2;
+      font-family: Bitter;
+      margin: 0;
+    }
+
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
+
+    .testimonials_atmosphere{
+      background: url("/img/testimonials_atmosphere.jpg") right/cover no-repeat;
+      height: 100%;
+      width: 100%;
+      justify-self: start;
+      order: -1;
+      max-height: 100%;
+      object-fit: contain;
+    }
+
+    .testimonials-about_link {
+      text-decoration: none;
+      color: black;
+      display: flex;
+    }
+
+    .testimonials-about_link:hover {
+      text-decoration: underline;
+    }
+
+     .about_link_header{
+      height: 190px;
+      /* width: 49px; */
+      margin: 0;
+      writing-mode: vertical-lr;
+      transform: rotate(-180deg);
+    }
+
+    /* .about_link_url {
+      height: 190px;
+      width: 49px;
+      margin: 0;
+      writing-mode: vertical-lr;
+      transform: rotate(-180deg);
+    }  */
+
+    .testimonials-title{
+      writing-mode: vertical-lr;
+      transform-origin: center center;
+      transform: rotate(-180deg);
+      margin: 0;
+    }
+
+
+.testimonials {
+  height: 760px;
+  padding-left: 119px;
+  display: grid;
+  grid-template-columns: 98px 32% 10% auto;
+}
+
+.testimonials-header {
+  width: 28px;
+  margin-left: 24px;
+}
+
+.testimonials-header > h2 {
+  max-width: none;
+  width: 28px;
+}
+
+.testimonials .testimonials-about {
+  margin: 0;
+  list-style: none;
+  order: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.testimonials-about_item {
+  text-decoration: none;
+  color: black;
+  display: flex;
+}
+
+.testimonials-about_item:hover {
+  text-decoration: underline;
+}
+
+.testimonials-about_item about_link_header {
+  height: 190px;
+  margin: 0;
+  writing-mode: vertical-lr;
+  transform: rotate(-180deg);
+}
+
+
+.overview-image {
+  background: url("./img/testimonials-section-image.jpg") right/cover no-repeat;
+  height: 760px;
+  width: 451px;
+  justify-self: start;
+  order: -1;
+  object-fit: contain;
+}
+
+.testimonials-content {
+  display: flex;
+  width: 451px;
+  height: 760px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 42px;
+  flex-shrink: 0;
+}
+
+.testimonials-content_quote {
+  width: 221px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* !!!! */
+
     .strongPoints-title{
     color: #000;
     font-family: Roboto;
@@ -285,23 +505,9 @@
     line-height: normal;
     }
 
+    .disk {
 
-/* figma
- .main-top{
-   background: url(/img/mod_studio.jpg), lightgray 0px -464.632px / 100% 242.111% no-repeat;
-    width: 1440px;
-    height: 630px;
-    flex-shrink: 0;
-}
-
-.main-company {
-    display: flex;
-    width: 690px;
-    padding: 110px 20px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 14px;
-    background: #FFF;
-}
-   */
+      width: 20px;
+      height: 6px;
+      background-color: #0d0d0d;
+    }
