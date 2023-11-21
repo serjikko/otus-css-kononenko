@@ -354,8 +354,8 @@
 
     p {
       display: block;
-      margin-block-start: 1em;
-      margin-block-end: 1em;
+      /* margin-block-start: 1em; */
+      /* margin-block-end: 1em; */
       margin-inline-start: 0px;
       margin-inline-end: 0px;
   }
@@ -483,8 +483,9 @@
 
 /* !!!! hm7 */
 .designers-container {
-  width: 1420px;
-  margin: 0 auto;
+  /* max-width: 1420px; */ 
+  margin: 0px 20px 10.4% 20px;
+  /* margin: 0 auto; */
 }
 
 .desingner_text {
@@ -494,12 +495,13 @@
 }
 
 .desingners{
-  overflow-x: scroll;
+  /* overflow-x: scroll; */
 }
 
 .desingner-gallery{
 display: flex;
 gap: 20px;
+align-items: end;
 }
 
 .desingner_info{
@@ -507,15 +509,15 @@ gap: 20px;
   flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  
+  overflow-x: auto;
 }
 
 .desingner_image{
   width: 100%;
-  position: relative;
+  /* position: relative; */
   left: 50%;
   top: 50%;
-  transform: translate(-50%, -50%);
+  /* transform: translate(-50%, -50%); */
  
 }
 
