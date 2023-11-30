@@ -165,7 +165,7 @@
     }
 
     .bio_img{
-      width: 100%;
+      /* width: 100%; */
     object-fit: contain;
     }
 
@@ -462,7 +462,7 @@
 
 .testimonials-content {
   display: flex;
-  width: 451px;
+  /* width: 451px; */
   height: 760px;
   flex-direction: column;
   justify-content: center;
@@ -588,7 +588,7 @@ align-items: end;
     grid-template-columns: repeat(2, 335px) 451px 335px;
     overflow-x: auto;
   }
-
+}
 
   .strongPoints-title2{
   font-family: "Playfair Display";
@@ -638,3 +638,35 @@ align-items: end;
       height: 6px;
       background-color: #0d0d0d;
     }
+
+
+/* !!!! hm9 */
+    @media screen and (width < 1207px) {
+
+      .testimonials {
+        height: 760px;
+        padding-left: 11px; 
+        display: grid;
+        grid-template-columns: 98px 32% 10% auto;
+        /* gap:24px */
+      }
+
+      .testimonials-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+      }
+      .bio_img{
+        object-fit: contain;
+        height: 100%;
+        justify-self: start;
+        max-height: 100%;
+        object-fit: contain;
+        }
+
+
+    }
+    
+/* !!!! hm9 */
