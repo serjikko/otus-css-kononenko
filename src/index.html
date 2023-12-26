@@ -1,9 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,8 +13,8 @@
 <body>
     <header>
         <nav>
-            <div class="flex h-[135px] justify-end items-center shrink-0;">
-            <ul class="list-none flex justify-end items-center gap-[55px] flex-[1_0_0]">
+            <div class="navigation">
+            <ul class="navigation-list">
                 <li class="navigation-item">
                     <a class="navigation-link" href="#Biography">B<span class="navigation-block">iography</span></a>
                 </li>
@@ -32,9 +32,9 @@
         </nav>
     </header>
     <main>
-        <section class="bg-[url('./../img/mod_studio.jpg')] main-top h-[630px] relative flex;">
+        <section class="main-top">
         
-            <div class="box-decoration-slice bg-gradient-to-r from-indigo-600 to-pink-500 w-[690px] h-[150px] m-auto pt-px px-5 py-[110px] inset-0">
+            <div class="main-company">
                 <h1 class="main-name">Mod Studio</h1>
                 <h2 class="main-suname">Modern Web Studio</h2>
             </div>
@@ -43,14 +43,14 @@
     <!-- Биография -->
     <section id="Biography">
     <div class="biography-main">
-        <div class="text-black text-right not-italic font-bold leading-[normal] self-start origin-[center_center] flex-col items-center justify-items-start -rotate-90 ml-[clamp(10px,4%,29px)]">   <h2>Biography</h2></div> 
+        <div class="biography-title">   <h2>Biography</h2></div> 
           <div class="biography_image">      <img class="bio_img" src="img/front_bio.jpg" alt="Art Director Katya Mills"></div>
-        <div class="max-w-[40%] justify-center flex flex-col">
-                <h2 class="text-black text-[86px] not-italic font-medium leading-[normal]">Katya <br> Mills</h2>
+        <div class="biography-person">
+                <h2 class="biography-name">Katya <br> Mills</h2>
                 
-              <div class="inline-block list-none mt-0 p-0;">  
+              <div class="biography-job-skill">  
                 <div>
-                    <p class="text-[#0D0D0D] text-lg not-italic font-medium leading-[normal] not-italic font-medium leading-[normal]">Art Director</p>
+                    <p class="biography-job">Art Director</p>
                 </div>
                 <br>
                 <ul class="biography-skillslist">
@@ -61,21 +61,21 @@
                 </ul>
                 </div>
         <div class="disk"></div>
-         <blockquote class="text-[#0D0D0D] text-[26px] not-italic font-normal leading-[normal] pt-[18px]">“The more I deal with the work as something that is my own, as something that is personal, the more successful it is.”</blockquote>
+         <blockquote class="biography-quote">“The more I deal with the work as something that is my own, as something that is personal, the more successful it is.”</blockquote>
         </div>
     </div> 
     </section>
     <!-- Дизайнеры -->
     <section id="Designers">
-    <div class="mt-0 mb-[10.4%] mx-5;">
+    <div class="designers-container">
         <h2 class="designers-title">Designers</h2>
-        <div class="overflow-x-auto">
-        <div class="flex gap-5 self-end"> 
-        <div class="text-base shrink-0 flex flex-col overflow-x-auto">
+        <div class="desingners">
+        <div class="desingner-gallery"> 
+        <div class="desingner_info">
             <div class="image_block">
                 <img class="desingner_image" src="img/designers_Jess_Wonder.jpg" alt="Designer Jess Wonder">
             </div>
-                <div class="w-[337px] self-end mt-6">
+                <div class="desingner_text">
                 <p class="designers-name">Jess Wonder</p>
                 <p class="designers-from">From/ Be more flower</p>
                 <p class="designers-job">Skills/ Design Strategy / Marketing</p>
@@ -84,7 +84,7 @@
         </div>
         <div class="desingner_info">
             <div class="image_block">
-                <img class="w-full left-2/4 top-2/4" src="img/designers_Kameron_Clein.jpg" alt="Designers Kameron Clein">
+                <img class="desingner_image" src="img/designers_Kameron_Clein.jpg" alt="Designers Kameron Clein">
             </div>    
                 <div class="desingner_text">
                 <p class="designers-name">Kameron Clein</p>
@@ -129,19 +129,19 @@
                         <li class="testimonials-about_item">
                             <a class="testimonials-about_link" href="www.whitepapers.com">
                                 <p class="about_link_header">Website</p>
-                                <p class="about_link_header">www.whitepapers.com</p>
+                                <p class="about_link_site">www.whitepapers.com</p>
                               </a>
                             </li>
                         <li class="testimonials-about_item">
                             <a class="testimonials-about_link" href="www.whitepapers.com">
                                 <p class="about_link_header">Creativity</p>
-                                <p class="about_link_header">www.whitepapers.com</p>
+                                <p class="about_link_site">www.whitepapers.com</p>
                             </a>
                             </li>
-                        <li class="links__item">
+                        <li class="testimonials-about_item">
                             <a class="testimonials-about_link" href="www.whitepapers.com">
                                 <p class="about_link_header">Creativity</p>
-                                <p class="about_link_header">www.whitepapers.com</p>
+                                <p class="about_link_site">www.whitepapers.com</p>
                               </a>
                             </li>
                     </ul>
@@ -203,5 +203,6 @@
 <br>
 <br>
     </main>
+
 </body>
 </html>
