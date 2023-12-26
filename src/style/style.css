@@ -322,15 +322,6 @@
     text-transform: capitalize;
     }
 
-    .testimonials-link{
-    color: #000;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    }
-
     .testimonials-title{
     color: #000;
     text-align: right;
@@ -395,14 +386,6 @@
       text-decoration: underline;
     }
 
-     .about_link_header about_link_site{
-      height: 190px;
-      /* width: 49px; */
-      margin: 0;
-      writing-mode: vertical-lr;
-      transform: rotate(-180deg);
-    }
-
 
 
     .testimonials-title{
@@ -449,23 +432,6 @@
 
 .testimonials-about_item:hover {
   text-decoration: underline;
-}
-
-.testimonials-about_item about_link_header about_link_site{
-  height: 190px;
-  margin: 0;
-  writing-mode: vertical-lr;
-  transform: rotate(-180deg);
-}
-
-
-.overview-image {
-  background: url("../img/testimonials-section-image.jpg") right/cover no-repeat;
-  height: 760px;
-  width: 451px;
-  justify-self: start;
-  order: -1;
-  object-fit: contain;
 }
 
 .testimonials-content {
@@ -753,12 +719,6 @@ ul li:nth-child(6n + 4) a:before {
 
 @media screen and (max-width: 600px) {
 
-  .designers-container .strong-points-container .testimonials-container .main-top{
-    min-width: 350px;
-    max-width: none;
-    margin: 0 auto;
-  }
-
 
   body{
     position: relative;
@@ -861,12 +821,6 @@ ul li:nth-child(6n + 4) a:before {
     padding: 0px 0px;
   }
 
-  .biography-skillslis {
-    order: 1;
-    margin-top: 0;
-    list-style-type: none;
-  }
-
   .biography-quote {
     margin: 57px 15px 0;
     font-size: 30px;
@@ -964,9 +918,6 @@ max-width: 310px;
   margin: 0 0 0 0;
   font-size: 60px;
 }
-.biography-job .biography-skillslist br {
-  display: none;
-}
 .biography-skills::before {
   content: "-";
 }
@@ -1049,23 +1000,6 @@ margin-right: 16px;
   transform-origin: center center;
   transform: none;
   margin: 0;
-}
-
-.testimonials-about_item about_link_header about_link_site{
-  display: block;
-  height: 100%;
-  margin: 0;
-  writing-mode: horizontal-tb;
-  transform: none;
-  
-}
-
-.about_link_header about_link_site{
-  height: 100%; 
-  /* width: 49px; */
-  margin: 0;
-  writing-mode: horizontal-tb;
-  transform: none;
 }
 
 
