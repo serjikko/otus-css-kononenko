@@ -1,10 +1,12 @@
-mobile-first для сервисов, ориентированных для массового потребителя с мобильными устройствами.
-desktop-first для сервисов, ориентированных для специализированных задач, недоступных или малоприменимыми для мобильных устройств.
+Performance - 75
+Accessibiliry - 100
+Best Practices - 95
+SE0 - 92
 
 
+There were issues affecting this run of Lighthouse:
 
-
-Работу ведем в соответствующей ветке. Например, tablet-version.
-Необходимо адаптировать страницу от десктопа к планшету. Обоснуйте выбор mobile-first либо desktop-first в сообщении к работе.
-Убедитесь в том, что на всем сайте снизу не появляется горизонтальной прокрутки. Принудительно скрывать прокрутку свойствами css нельзя. Скроллится должны только отдельные секции, где это было задумано дизайнером.
-Сделать коммит, пуш. Прислать ссылку на ПР.
+No ads were requested when fetching this page.
+No ads were rendered when rendering this page.
+The GPT tag was not requested.
+No ads were rendered when rendering this page.
